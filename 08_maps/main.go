@@ -10,4 +10,10 @@ func main() {
 
 	fmt.Println(emails)
 	fmt.Println(emails["Adu"])
+
+	delete(emails, "Adu")
+	fmt.Println(emails)
+
+	emails_2 := map[string]string{"Adu": "aluta182004@gmail.com", "Hannah": "afua1995@gmail.com"}
+	fmt.Println(emails_2)
 }
